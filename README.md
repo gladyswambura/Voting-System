@@ -1,6 +1,4 @@
-=======
-## WikiScraper
-### Description
+# WikiScraper
 WikiScraper is a Python project that allows users to scrape data from Wikipedia pages using the BeautifulSoup library. The data is stored in a list of dictionaries, and the user can perform various operations on the data using functions and conditional loops. The project is designed to help users extract useful information from Wikipedia pages and perform analysis on the data.
 
 ### Installation
