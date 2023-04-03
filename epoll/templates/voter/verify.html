@@ -11,7 +11,7 @@
       </div>
 
       <!-- Voting Ballot -->
-      <form method="POST" id="ballotForm" action="">
+      <form method="POST" id="ballotForm" action="{% url 'epoll:verify_otp' %}">
         {% csrf_token %}
         <div class="row">
           <div class="col-xs-12">
@@ -57,7 +57,7 @@
     var button = $("#request_otp");
     button.attr("disabled", true);
     $.ajax({
-      url: "",
+      url: "{% url 'epoll:resend_otp' %}",
       type: 'GET',
 
       success: function (response) {

@@ -224,7 +224,7 @@ def verify_otp(request):
                 voter.save()
                 error = False
     if error:
-        return redirect(reverse('apoll:voterVerify'))
+        return redirect(reverse('epoll:voterVerify'))
     return redirect(reverse('epoll:show_ballot'))
 
 
