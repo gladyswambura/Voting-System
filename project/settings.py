@@ -31,7 +31,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'default-secret-key') # Instead of you
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost',
+  '127.0.0.1',
+  '111.222.333.444',
+  'web-production-9d0e.up.railway.app']
 
 
 # Application definition
