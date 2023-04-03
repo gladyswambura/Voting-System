@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect
+from django.urls import reverse
 from accounts.views import account_login
 from .models import Position, Candidate, Voter, Votes
 from django.http import JsonResponse
