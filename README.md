@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # WikiScraper
-# MessageMuse
-=======
-## WikiScraper
-### Description
 WikiScraper is a Python project that allows users to scrape data from Wikipedia pages using the BeautifulSoup library. The data is stored in a list of dictionaries, and the user can perform various operations on the data using functions and conditional loops. The project is designed to help users extract useful information from Wikipedia pages and perform analysis on the data.
 
 ### Installation
@@ -55,6 +50,7 @@ If you want to contribute to WikiScraper, you can fork the repository and create
 ### License
 WikiScraper is licensed under the MIT License.
 
+<<<<<<< HEAD
 
 
 >>>>>>> 853233e09e5c6c88e98330f2f985793b47c25b86
@@ -64,3 +60,5 @@ WikiScraper is licensed under the MIT License.
 # The-Marketplace
 # Django-form
 # E-POLL
+=======
+>>>>>>> 8413532ab477cd2a2d817a7da3856a205ffffeb9
